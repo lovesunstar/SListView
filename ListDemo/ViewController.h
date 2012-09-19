@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "SListView.h"
+#import "SListViewCell.h"
+
+@interface ViewController : UIViewController <SListViewDelegate, SListViewDataSource>
 
 @end

@@ -16,6 +16,8 @@
 		A4131A9A16081A2A001B9172 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4131A9916081A2A001B9172 /* ViewController.m */; };
 		A4131A9D16081A2A001B9172 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4131A9B16081A2A001B9172 /* ViewController_iPhone.xib */; };
 		A4131AA016081A2A001B9172 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4131A9E16081A2A001B9172 /* ViewController_iPad.xib */; };
+		A4131AB216081FC1001B9172 /* SListView.m in Sources */ = {isa = PBXBuildFile; fileRef = A4131AAF16081FC1001B9172 /* SListView.m */; };
+		A4131AB316081FC1001B9172 /* SListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A4131AB116081FC1001B9172 /* SListViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		A4131A9916081A2A001B9172 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A4131A9C16081A2A001B9172 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		A4131A9F16081A2A001B9172 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		A4131AAE16081FC1001B9172 /* SListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SListView.h; sourceTree = "<group>"; };
+		A4131AAF16081FC1001B9172 /* SListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SListView.m; sourceTree = "<group>"; };
+		A4131AB016081FC1001B9172 /* SListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SListViewCell.h; sourceTree = "<group>"; };
+		A4131AB116081FC1001B9172 /* SListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SListViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,10 @@
 		A4131A8C16081A2A001B9172 /* ListDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A4131AAE16081FC1001B9172 /* SListView.h */,
+				A4131AAF16081FC1001B9172 /* SListView.m */,
+				A4131AB016081FC1001B9172 /* SListViewCell.h */,
+				A4131AB116081FC1001B9172 /* SListViewCell.m */,
 				A4131A9516081A2A001B9172 /* AppDelegate.h */,
 				A4131A9616081A2A001B9172 /* AppDelegate.m */,
 				A4131A9816081A2A001B9172 /* ViewController.h */,
@@ -168,6 +178,8 @@
 				A4131A9316081A2A001B9172 /* main.m in Sources */,
 				A4131A9716081A2A001B9172 /* AppDelegate.m in Sources */,
 				A4131A9A16081A2A001B9172 /* ViewController.m in Sources */,
+				A4131AB216081FC1001B9172 /* SListView.m in Sources */,
+				A4131AB316081FC1001B9172 /* SListViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
